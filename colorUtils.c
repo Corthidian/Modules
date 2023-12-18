@@ -36,7 +36,7 @@ int toGrayScaleLuminosity (int r, int g, int b)
 
 int toSepiaRed(int r, int g, int b)
 {
-
+ int result = ((int) round(0.393*r + 0.769*g + 0.189*b));
 }
 
 
