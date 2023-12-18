@@ -31,7 +31,7 @@ int toGrayScaleLightness (int r , int g , int b)
 
 int toGrayScaleLuminosity (int r, int g, int b)
 {
-
+ return(int)round(0.21* r + 0.72* g + 0.07* b);
 }
 
 
