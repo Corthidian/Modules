@@ -12,5 +12,7 @@ double getAirDistance(double originLatitude,double originLongitude, double desti
     double deltaLongitude = degreesToRadians(destinationLongitude - originLongitude);
     originLatitude = degreesToRadians(originLatitude);
     destinationLatitude = degreesToRadians(destinationLatitude);
+double centralAngle = acos(sin(originLatitude) * sin(destinationLatitude) + cos(originLatitude) * cos(destinationLatitude) * cos(deltaLongitude));
+
 }
 
