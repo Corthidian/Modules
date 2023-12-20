@@ -21,7 +21,7 @@ double lorentzTimeDialation (double time, double percentC)
  double c = 299792458.0;
  double result = percentC / 100.0;
  double lorentzFactor = 1.0/sqrt(1.0 - result * result);
- return t / lorentzFactor;   
+ return time / lorentzFactor;   
 }
 
 
