@@ -49,7 +49,9 @@ return (result < 0) ? 0 :  (result > 255 ) ? 255 : result;
 
 int toSepiaBlue (int r, int g, int b)
 {
-  
+   int result = ((int) round(0.272*r + 0.534*g + 0.131*b));
+   return (result < 0) ? 0 :  (result > 255 ) ? 255 : result;
+
 }
 
 
