@@ -40,11 +40,16 @@ int toSepiaRed(int r, int g, int b)
  return (result < 0) ? 0 :  (result > 255 ) ? 255 : result;
 }
 
-int SepiaGreen (int r, int g, int b)
+int toSepiaGreen (int r, int g, int b)
 {
  int result = ((int) round(0.349*r + 0.686*g + 0.168*b));
 return (result < 0) ? 0 :  (result > 255 ) ? 255 : result;
 
+}
+
+int toSepiaBlue (int r, int g, int b)
+{
+  
 }
 
 
