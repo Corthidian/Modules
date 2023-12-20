@@ -3,7 +3,7 @@
 #include <math.h>
 
 double rgbIntToFloat(int c) {
-  return rountd(c / 255.0);
+  return round(c / 255.0);
 }
 
 int max(int x, int y, int z) {
